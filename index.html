@@ -23,8 +23,8 @@
 
   <style>
     :root {
-      --bg-main: #f5f6fb;
-      --bg-alt: #eef1f9;
+      --bg-main: #eef1f9;
+      --bg-alt: #e1e6f6;
       --border: #dde2eb;
       --border-soft: #e5eaf4;
       --accent: #0f5fad;
@@ -44,7 +44,7 @@
     body {
       margin: 0;
       font-family: "Poppins", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      background: linear-gradient(180deg, #f6f7fc 0, #ffffff 260px);
+      background: linear-gradient(180deg, #e6e9f5 0, #f2f3fb 260px);
       color: var(--text-main);
     }
 
@@ -61,7 +61,7 @@
 
     header {
       border-bottom: 1px solid var(--border);
-      background: rgba(255, 255, 255, 0.96);
+      background: rgba(250, 251, 255, 0.96);
       position: sticky;
       top: 0;
       z-index: 20;
@@ -71,7 +71,7 @@
     .top-bar {
       font-size: 12px;
       padding: 6px 0;
-      background: linear-gradient(90deg, #f3f5fb, #f9fbff);
+      background: linear-gradient(90deg, #e9edf8, #f4f6ff);
       border-bottom: 1px solid var(--border-soft);
     }
 
@@ -226,8 +226,8 @@
     .hero {
       padding: 32px 0 30px;
       background:
-        radial-gradient(circle at top left, rgba(255,255,255,0.9) 0, rgba(247,250,255,0.9) 40%, rgba(233,239,252,0.9) 100%),
-        linear-gradient(135deg, #eef1f9, #f7f9ff);
+        radial-gradient(circle at top left, rgba(241,243,253,0.98) 0, rgba(228,233,249,0.98) 40%, rgba(214,221,244,0.98) 100%),
+        linear-gradient(135deg, #dde3f6, #eef0fb);
       border-bottom: 1px solid var(--border);
     }
 
@@ -318,7 +318,7 @@
     }
 
     .section-alt {
-      background: radial-gradient(circle at top left, #f5f7fd 0, #eef1f9 40%, #f6f7fc 100%);
+      background: radial-gradient(circle at top left, #e8ebfb 0, #dde2f4 40%, #eef1f9 100%);
       border-top: 1px solid var(--border);
       border-bottom: 1px solid var(--border);
     }
@@ -404,7 +404,7 @@
       border: 1px solid var(--border-soft);
     }
 
-    /* IMAGE GRID (removed section used this; kept in case you re-add later) */
+    /* IMAGE GRID (kept for future use) */
     .image-card {
       padding: 10px;
     }
@@ -514,11 +514,32 @@
       margin-top: 8px;
     }
 
+    /* MOBILE STICKY BAR */
+
+    .mobile-sticky-bar {
+      position: fixed;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      padding: 8px 12px 10px;
+      background: rgba(8, 18, 45, 0.96);
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+      display: none;
+      gap: 8px;
+      z-index: 50;
+    }
+
+    .mobile-sticky-bar .btn {
+      flex: 1;
+      font-size: 13px;
+      padding: 8px 10px;
+    }
+
     /* FOOTER */
 
     footer {
       border-top: 1px solid var(--border);
-      background: linear-gradient(90deg, #f4f6fa, #eef2f9);
+      background: linear-gradient(90deg, #e9edf8, #dde3f5);
       padding: 16px 0 20px;
       font-size: 12px;
       color: var(--text-soft);
@@ -544,6 +565,9 @@
     }
 
     @media (max-width: 720px) {
+      body {
+        padding-bottom: 64px; /* space for sticky bar */
+      }
       .nav-inner {
         flex-direction: column;
         align-items: flex-start;
@@ -555,6 +579,9 @@
         align-self: stretch;
         justify-content: flex-start;
         flex-wrap: wrap;
+      }
+      .mobile-sticky-bar {
+        display: flex;
       }
     }
   </style>
@@ -634,6 +661,7 @@
           <li>Porsche keys: 2010–2021 – spare keys &amp; all keys lost</li>
           <li>Volvo &amp; JLR keys: 2010–2025 – spare keys &amp; all keys lost</li>
           <li>CAN Phantom immobiliser fitted – £449, or £399 with key work</li>
+          <li>OEM-quality keys supplied with up to 12 months warranty</li>
           <li>Professional ID &amp; ownership checks for every job</li>
         </ul>
       </div>
@@ -676,7 +704,7 @@
           <ul class="simple-list">
             <li>We confirm your vehicle and key type before booking.</li>
             <li>Up-front fixed price – no add-ons once we arrive.</li>
-            <li>Photo ID and proof of ownership required for all jobs.</li>
+            <li>OEM-quality or equivalent keys, typically with 12 months warranty.</li>
             <li>Keys fully tested and demonstrated before we leave.</li>
             <li>Invoice provided for your records and insurance.</li>
           </ul>
@@ -1030,11 +1058,22 @@
               src="https://maps.google.com/maps?q=52.47249900403358,-2.032268844846102&z=16&output=embed">
             </iframe>
           </div>
+          <p class="contact-note">
+            <strong>Opening hours:</strong><br>
+            Monday to Friday: 7:00 – 19:00<br>
+            Saturday &amp; Sunday: emergency only, by appointment.
+          </p>
         </div>
       </div>
     </div>
   </section>
 </main>
+
+<!-- MOBILE STICKY CALL / WHATSAPP BAR -->
+<div class="mobile-sticky-bar">
+  <a href="tel:+447833823384" class="btn btn-primary">Call 078 3382 3384</a>
+  <a href="https://wa.me/447833823384" class="btn btn-whatsapp" target="_blank" rel="noopener">WhatsApp us</a>
+</div>
 
 <footer>
   <div class="container footer-inner">
