@@ -1,1090 +1,222 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en-GB">
 <head>
-  <meta charset="UTF-8">
-  <title>Premium Car Keys | Porsche, Volvo & JLR Auto Locksmith Halesowen</title>
-
-  <meta name="description" content="Premium Car Keys provide specialist Porsche, Volvo and JLR car key replacement from our Halesowen workshop with a mobile service radius of up to 99 miles. Spare keys, all keys lost and CAN Phantom immobilisers.">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <link rel="canonical" href="https://www.premiumcarkeys.co.uk/">
-
-  <!-- Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
-  <!-- Open Graph -->
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="Premium Car Keys | Porsche, Volvo & JLR Auto Locksmith Halesowen">
-  <meta property="og:description" content="Specialist car keys and CAN Phantom immobilisers for Porsche, Volvo & JLR. Workshop by appointment in Halesowen and mobile up to 99 miles.">
-  <meta property="og:url" content="https://www.premiumcarkeys.co.uk/">
-  <meta property="og:image" content="https://www.premiumcarkeys.co.uk/images/our-van.jpg">
-
-  <style>
-    :root {
-      --bg-main: #eef1f9;
-      --bg-alt: #e1e6f6;
-      --border: #dde2eb;
-      --border-soft: #e5eaf4;
-      --accent: #0f5fad;
-      --accent-soft: #e4f0ff;
-      --accent-soft-2: #f6f0ff;
-      --accent-dark: #073564;
-      --accent-gold: #d3a853;
-      --text-main: #22252b;
-      --text-soft: #60656f;
-      --max-width: 1120px;
-      --radius: 14px;
-      --shadow-soft: 0 10px 28px rgba(8, 24, 66, 0.15);
-    }
-
-    * { box-sizing: border-box; }
-
-    body {
-      margin: 0;
-      font-family: "Poppins", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      background: linear-gradient(180deg, #e6e9f5 0, #f2f3fb 260px);
-      color: var(--text-main);
-    }
-
-    a { color: inherit; text-decoration: none; }
-    img { max-width: 100%; height: auto; display: block; }
-
-    .container {
-      max-width: var(--max-width);
-      margin: 0 auto;
-      padding: 0 16px;
-    }
-
-    /* HEADER */
-
-    header {
-      border-bottom: 1px solid var(--border);
-      background: rgba(250, 251, 255, 0.96);
-      position: sticky;
-      top: 0;
-      z-index: 20;
-      backdrop-filter: blur(10px);
-    }
-
-    .nav {
-      padding: 10px 0;
-    }
-
-    .nav-inner {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 20px;
-    }
-
-    .logo-block {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-    }
-
-    .logo-mark {
-      width: 38px;
-      height: 38px;
-      border-radius: 11px;
-      background: radial-gradient(circle at 25% 0, #ffffff 0, #2b76c6 45%, #093566 100%);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: #ffffff;
-      font-weight: 700;
-      font-size: 18px;
-      box-shadow: 0 10px 24px rgba(6, 36, 80, 0.45);
-    }
-
-    .logo-text-main {
-      font-weight: 600;
-      font-size: 18px;
-    }
-
-    .logo-text-sub {
-      font-size: 11px;
-      color: var(--text-soft);
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
-    }
-
-    nav ul {
-      list-style: none;
-      display: flex;
-      gap: 18px;
-      margin: 0;
-      padding: 0;
-      font-size: 14px;
-      color: var(--text-soft);
-    }
-
-    nav a {
-      position: relative;
-      padding-bottom: 2px;
-    }
-    nav a::after {
-      content: "";
-      position: absolute;
-      left: 0;
-      bottom: 0;
-      width: 0;
-      height: 2px;
-      border-radius: 99px;
-      background: linear-gradient(90deg, var(--accent), var(--accent-gold));
-      transition: width 0.16s ease;
-    }
-    nav a:hover {
-      color: var(--accent-dark);
-    }
-    nav a:hover::after {
-      width: 100%;
-    }
-
-    .nav-cta {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      font-size: 14px;
-    }
-
-    .btn {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      padding: 8px 16px;
-      border-radius: 999px;
-      border: 1px solid transparent;
-      font-size: 14px;
-      font-weight: 500;
-      cursor: pointer;
-      background: none;
-      transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease, box-shadow 0.15s ease, transform 0.1s ease;
-      white-space: nowrap;
-    }
-
-    .btn-primary {
-      background: linear-gradient(135deg, #1663b1, #0b4c8b);
-      border-color: #0d4a88;
-      color: #ffffff;
-      box-shadow: 0 6px 18px rgba(13, 74, 136, 0.45);
-    }
-    .btn-primary:hover {
-      background: linear-gradient(135deg, #0c4a8e, #083667);
-      transform: translateY(-1px);
-      box-shadow: 0 9px 24px rgba(5, 43, 86, 0.55);
-    }
-
-    .btn-outline {
-      border-color: var(--accent);
-      color: var(--accent);
-      background: #ffffff;
-    }
-    .btn-outline:hover {
-      background: var(--accent-soft);
-    }
-
-    .btn-whatsapp {
-      background: linear-gradient(135deg, #25d366, #1aae54);
-      border-color: #118343;
-      color: #ffffff;
-      box-shadow: 0 6px 18px rgba(18, 145, 74, 0.45);
-    }
-    .btn-whatsapp:hover {
-      background: linear-gradient(135deg, #1fb45a, #148c47);
-      transform: translateY(-1px);
-      box-shadow: 0 9px 24px rgba(13, 112, 57, 0.6);
-    }
-
-    /* HERO */
-
-    .hero {
-      padding: 32px 0 30px;
-      background:
-        radial-gradient(circle at top left, rgba(241,243,253,0.98) 0, rgba(228,233,249,0.98) 40%, rgba(214,221,244,0.98) 100%),
-        linear-gradient(135deg, #dde3f6, #eef0fb);
-      border-bottom: 1px solid var(--border);
-    }
-
-    .hero-inner {
-      display: grid;
-      grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr);
-      gap: 32px;
-      align-items: center;
-    }
-
-    .hero h1 {
-      margin: 0 0 10px;
-      font-size: 28px;
-      font-weight: 600;
-    }
-
-    .hero-subtitle {
-      margin: 0 0 20px;
-      color: var(--text-soft);
-      font-size: 15px;
-    }
-
-    .hero-actions {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px;
-      margin-bottom: 16px;
-    }
-
-    .hero-points {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-      font-size: 13px;
-      color: var(--text-soft);
-    }
-    .hero-points li {
-      margin-bottom: 4px;
-      position: relative;
-      padding-left: 16px;
-    }
-    .hero-points li::before {
-      content: "";
-      position: absolute;
-      left: 0;
-      top: 7px;
-      width: 7px;
-      height: 7px;
-      border-radius: 50%;
-      background: radial-gradient(circle, #ffffff 0, #2f6ec3 55%, #0c396b 100%);
-    }
-
-    .hero-card {
-      background: #ffffff;
-      border-radius: 18px;
-      box-shadow: var(--shadow-soft);
-      padding: 16px;
-      border: 1px solid var(--border-soft);
-      font-size: 13px;
-      color: var(--text-soft);
-      position: relative;
-      overflow: hidden;
-    }
-
-    .hero-card::before {
-      content: "";
-      position: absolute;
-      inset: 0 0 auto;
-      height: 3px;
-      background: linear-gradient(90deg, #1a5fb0, #d3a853);
-    }
-
-    .hero-card img {
-      border-radius: 10px;
-      margin-bottom: 12px;
-    }
-
-    .hero-card strong {
-      display: block;
-      margin-bottom: 6px;
-      color: var(--text-main);
-    }
-
-    /* SECTIONS */
-
-    .section {
-      padding: 32px 0;
-    }
-
-    .section-alt {
-      background: radial-gradient(circle at top left, #e8ebfb 0, #dde2f4 40%, #eef1f9 100%);
-      border-top: 1px solid var(--border);
-      border-bottom: 1px solid var(--border);
-    }
-
-    .section h2 {
-      margin: 0 0 8px;
-      font-size: 22px;
-    }
-
-    .section-intro {
-      margin: 0 0 20px;
-      font-size: 14px;
-      color: var(--text-soft);
-    }
-
-    .two-col {
-      display: grid;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-      gap: 20px;
-    }
-
-    .card {
-      background: #ffffff;
-      border-radius: var(--radius);
-      border: 1px solid var(--border-soft);
-      padding: 16px 18px 18px;
-      box-shadow: var(--shadow-soft);
-      font-size: 14px;
-      color: var(--text-soft);
-      position: relative;
-      overflow: hidden;
-    }
-
-    .card::before {
-      content: "";
-      position: absolute;
-      inset: 0 0 auto;
-      height: 3px;
-      background: linear-gradient(90deg, rgba(15,95,173,0.75), rgba(211,168,83,0.8));
-      opacity: 0.8;
-    }
-
-    .card h3 {
-      margin-top: 4px;
-      margin-bottom: 6px;
-      font-size: 16px;
-      color: var(--text-main);
-    }
-
-    .three-col {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-      gap: 20px;
-    }
-
-    .pricing-card h3 {
-      margin-bottom: 4px;
-    }
-
-    .price {
-      font-size: 20px;
-      font-weight: 600;
-      color: var(--accent-dark);
-      margin-bottom: 6px;
-    }
-
-    .price-note {
-      font-size: 12px;
-      color: var(--text-soft);
-      margin-bottom: 8px;
-    }
-
-    .pricing-card ul {
-      margin: 0;
-      padding-left: 18px;
-      font-size: 13px;
-    }
-
-    /* brand photos inside cards */
-    .brand-photo {
-      border-radius: 10px;
-      margin-bottom: 10px;
-      border: 1px solid var(--border-soft);
-    }
-
-    .image-card {
-      padding: 10px;
-    }
-    .image-card::before {
-      display: none;
-    }
-    .image-card img {
-      border-radius: 10px;
-      width: 100%;
-      height: auto;
-      border: 1px solid var(--border-soft);
-    }
-
-    /* LISTS */
-
-    .simple-list {
-      margin: 0;
-      padding-left: 18px;
-      font-size: 14px;
-      color: var(--text-soft);
-    }
-
-    .simple-list li {
-      margin-bottom: 4px;
-    }
-
-    /* REVIEWS */
-
-    .reviews-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-      gap: 20px;
-    }
-
-    .review-stars {
-      color: #f3b544;
-      font-size: 13px;
-      margin-bottom: 4px;
-    }
-
-    .review-meta {
-      font-size: 12px;
-      color: var(--text-soft);
-      margin-bottom: 6px;
-    }
-
-    /* CONTACT SECTION */
-
-    .contact-grid {
-      display: grid;
-      grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr);
-      gap: 24px;
-      align-items: flex-start;
-    }
-
-    label {
-      display: block;
-      font-size: 13px;
-      margin-bottom: 4px;
-      color: var(--text-soft);
-    }
-
-    .form-row {
-      margin-bottom: 10px;
-    }
-
-    input, select, textarea {
-      width: 100%;
-      font-family: inherit;
-      font-size: 13px;
-      padding: 8px 10px;
-      border-radius: 7px;
-      border: 1px solid var(--border);
-      background: #fcfdff;
-      color: var(--text-main);
-    }
-
-    textarea {
-      resize: vertical;
-      min-height: 80px;
-    }
-
-    input:focus, select:focus, textarea:focus {
-      outline: none;
-      border-color: var(--accent);
-      box-shadow: 0 0 0 1px var(--accent-soft);
-      background: #ffffff;
-    }
-
-    .map-box {
-      border-radius: var(--radius);
-      overflow: hidden;
-      border: 1px solid var(--border-soft);
-      height: 250px;
-      box-shadow: 0 8px 22px rgba(11, 30, 72, 0.2);
-    }
-
-    .map-box iframe {
-      width: 100%;
-      height: 100%;
-      border: 0;
-    }
-
-    .contact-note {
-      font-size: 12px;
-      color: var(--text-soft);
-      margin-top: 8px;
-    }
-
-    /* MOBILE STICKY BAR */
-
-    .mobile-sticky-bar {
-      position: fixed;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      padding: 8px 12px 10px;
-      background: rgba(8, 18, 45, 0.96);
-      border-top: 1px solid rgba(255, 255, 255, 0.08);
-      display: none;
-      gap: 8px;
-      z-index: 50;
-    }
-
-    .mobile-sticky-bar .btn {
-      flex: 1;
-      font-size: 13px;
-      padding: 8px 10px;
-    }
-
-    /* FOOTER */
-
-    footer {
-      border-top: 1px solid var(--border);
-      background: linear-gradient(90deg, #e9edf8, #dde3f5);
-      padding: 16px 0 20px;
-      font-size: 12px;
-      color: var(--text-soft);
-    }
-
-    .footer-inner {
-      display: flex;
-      justify-content: space-between;
-      gap: 20px;
-      flex-wrap: wrap;
-    }
-
-    .footer-inner a {
-      color: var(--accent-dark);
-    }
-
-    @media (max-width: 900px) {
-      .hero-inner,
-      .two-col,
-      .contact-grid {
-        grid-template-columns: minmax(0, 1fr);
-      }
-    }
-
-    @media (max-width: 720px) {
-      body {
-        padding-bottom: 64px; /* space for sticky bar */
-      }
-
-      /* Let the header scroll away on mobile so it doesn't always take space */
-      header {
-        position: static;
-        backdrop-filter: none;
-      }
-
-      .nav-inner {
-        flex-direction: column;
-        align-items: flex-start;
-      }
-
-      nav ul {
-        flex-wrap: wrap;
-        font-size: 13px;
-        gap: 12px;
-      }
-
-      .logo-mark {
-        width: 34px;
-        height: 34px;
-        font-size: 16px;
-      }
-
-      .logo-text-main {
-        font-size: 16px;
-      }
-
-      .hero {
-        padding-top: 20px;
-      }
-
-      /* Hide duplicate hero CTAs – sticky bar handles calls/WhatsApp */
-      .hero-actions {
-        display: none;
-      }
-
-      .mobile-sticky-bar {
-        display: flex;
-      }
-    }
-  </style>
-
-  <!-- Simple LocalBusiness schema -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "AutomotiveBusiness",
-    "name": "Premium Car Keys",
-    "url": "https://www.premiumcarkeys.co.uk/",
-    "description": "Specialist auto locksmith for Porsche, Volvo and JLR vehicles. Spare keys, all keys lost and CAN Phantom immobiliser installation from our Halesowen workshop with a mobile service radius of up to 99 miles.",
-    "telephone": "+44-7833-823384",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "Unit F, Leona Trading Estate, Nimmings Road",
-      "addressLocality": "Halesowen",
-      "addressRegion": "West Midlands",
-      "postalCode": "B62 9JQ",
-      "addressCountry": "GB"
-    },
-    "areaServed": "Within 99 miles of Halesowen"
-  }
-  </script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Porsche, Volvo and Jaguar Land Rover Car Keys | West Midlands | Premium Car Keys</title>
+<meta name="description" content="Spare keys and all keys lost for Porsche, Volvo and Jaguar Land Rover. Halesowen workshop by appointment, or we come to you within 30 miles across the West Midlands.">
+<link rel="canonical" href="https://premiumcarkeys.co.uk/">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="theme-color" content="#1b2330">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_GB">
+<meta property="og:site_name" content="Premium Car Keys">
+<meta property="og:title" content="Porsche, Volvo and Jaguar Land Rover Car Keys | West Midlands | Premium Car Keys">
+<meta property="og:description" content="Spare keys and all keys lost for Porsche, Volvo and Jaguar Land Rover. Halesowen workshop by appointment, or we come to you within 30 miles across the West Midlands.">
+<meta property="og:url" content="https://premiumcarkeys.co.uk/">
+<meta property="og:image" content="https://premiumcarkeys.co.uk/images/porsche-spare-key.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%231b2330'/%3E%3Ccircle cx='11' cy='16' r='5' fill='none' stroke='%23a8823a' stroke-width='2.5'/%3E%3Cpath d='M16 16h11M23 16v4' stroke='%23a8823a' stroke-width='2.5' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@100..125,400..800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/site.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": ["Locksmith", "AutomotiveBusiness"], "@id": "https://premiumcarkeys.co.uk/#business", "name": "Premium Car Keys", "legalName": "Kovac Services Ltd", "url": "https://premiumcarkeys.co.uk/", "telephone": "+447833823384", "email": "info@kslimited.co.uk", "image": "https://premiumcarkeys.co.uk/images/porsche-spare-key.jpg", "priceRange": "££", "description": "Spare keys, all keys lost and CAN Phantom immobilisers for Porsche, Volvo and Jaguar Land Rover. Workshop in Halesowen by appointment, mobile within 30 miles across the West Midlands.", "address": {"@type": "PostalAddress", "streetAddress": "Unit F, Leona Trading Estate, Nimmings Road", "addressLocality": "Halesowen", "addressRegion": "West Midlands", "postalCode": "B62 9JQ", "addressCountry": "GB"}, "geo": {"@type": "GeoCoordinates", "latitude": 52.47251, "longitude": -2.03224}, "areaServed": {"@type": "GeoCircle", "geoMidpoint": {"@type": "GeoCoordinates", "latitude": 52.47251, "longitude": -2.03224}, "geoRadius": "48280"}, "openingHoursSpecification": [{"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], "opens": "09:00", "closes": "18:00"}], "sameAs": ["FACEBOOK_PAGE_URL"]}, {"@type": "WebSite", "@id": "https://premiumcarkeys.co.uk/#website", "url": "https://premiumcarkeys.co.uk/", "name": "Premium Car Keys", "publisher": {"@id": "https://premiumcarkeys.co.uk/#business"}}]}</script>
 </head>
 <body>
-
-<header>
-  <div class="nav">
-    <div class="container nav-inner">
-      <div class="logo-block">
-        <div class="logo-mark">P</div>
-        <div>
-          <div class="logo-text-main">Premium Car Keys</div>
-          <div class="logo-text-sub">Porsche • Volvo • JLR</div>
-        </div>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-head">
+  <div class="wrap head-row">
+    <a class="brand" href="/" aria-label="Premium Car Keys home">
+      <span class="brand-name">Premium Car Keys</span>
+      <span class="brand-sub">Kovac Services Ltd, Halesowen</span>
+    </a>
+    <nav class="main-nav" aria-label="Main"><ul><li><a href="/porsche-car-keys/">Porsche</a></li><li><a href="/volvo-car-keys/">Volvo</a></li><li><a href="/jaguar-land-rover-car-keys/">Jaguar Land Rover</a></li><li><a href="/all-keys-lost/">All keys lost</a></li><li><a href="/can-phantom-immobiliser/">CAN Phantom</a></li><li><a href="/areas-we-cover/">Areas we cover</a></li></ul></nav>
+    <a class="btn btn-small head-call" href="tel:+447833823384">Call 07833 823384</a>
+  </div>
+</header>
+<main id="main">
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <h1>Car keys for Porsche, Volvo and Jaguar Land Rover.</h1>
+      <p class="lede">Spare keys, all keys lost and CAN Phantom immobilisers. Bring the car to our Halesowen workshop, or we come to you anywhere within 30 miles across the West Midlands.</p>
+      <div class="actions">
+        <a class="btn" href="tel:+447833823384">Call 07833 823384</a>
+        <a class="btn btn-wa" href="https://wa.me/447833823384">WhatsApp a photo of your key</a>
       </div>
-      <nav aria-label="Main navigation">
-        <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#coverage">Vehicles</a></li>
-          <li><a href="#pricing">Pricing</a></li>
-          <li><a href="#reviews">Reviews</a></li>
-          <li><a href="#can-phantom">CAN Phantom</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-      <div class="nav-cta">
-        <a href="tel:+447833823384" class="btn btn-primary">Call now</a>
-        <a href="https://wa.me/447833823384" class="btn btn-whatsapp" target="_blank" rel="noopener">WhatsApp us</a>
+      <ul class="hero-facts">
+        <li>Price confirmed before we book, no add-ons on the day</li>
+        <li>Keys cut, programmed and tested before we finish</li>
+        <li>Photo ID and proof of ownership checked on every job</li>
+        <li>Up to 12 months warranty on the keys we supply</li>
+      </ul>
+    </div>
+    <div>
+      <h2 class="skip">Choose your car</h2>
+      <nav class="makes" aria-label="Choose your car"><a class="make" href="/porsche-car-keys/"><img src="/images/porsche-spare-key.jpg" alt="" width="112" height="80" loading="eager"><span><span class="make-name">Porsche</span><span class="make-years">2010 to 2021, spare keys and all keys lost</span></span><span class="make-price">from<strong>£250</strong></span></a><a class="make" href="/volvo-car-keys/"><img src="/images/volvo-spare-key.jpg" alt="" width="112" height="80" loading="eager"><span><span class="make-name">Volvo</span><span class="make-years">2010 to 2025, spare keys and all keys lost</span></span><span class="make-price">from<strong>£220</strong></span></a><a class="make" href="/jaguar-land-rover-car-keys/"><img src="/images/jaguar-spare-key.jpg" alt="" width="112" height="80" loading="eager"><span><span class="make-name">Jaguar Land Rover</span><span class="make-years">2010 to 2023, spare keys and all keys lost</span></span><span class="make-price">from<strong>£170</strong></span></a><a class="make" href="/all-keys-lost/"><span class="make-blank" aria-hidden="true" style="display:flex;align-items:center;justify-content:center"><svg width="40" height="40" viewBox="0 0 40 40" fill="none" aria-hidden="true"><circle cx="13" cy="20" r="7" stroke="#a8823a" stroke-width="2.5"/><path d="M20 20h14M29 20v5M33 20v4" stroke="#a8823a" stroke-width="2.5" stroke-linecap="round"/></svg></span><span><span class="make-name">All keys lost</span><span class="make-years">Every key gone, car locked or open</span></span><span class="make-price">from<strong>£320</strong></span></a></nav>
+      <p class="form-note" style="margin-top:12px">Workshop prices. Mobile visits add a travel charge, confirmed in your quote.</p>
+    </div>
+  </div>
+</section>
+
+<section class="sec" aria-labelledby="mode-h">
+  <div class="wrap">
+    <div class="sec-head"><h2 id="mode-h">Workshop or mobile, your choice</h2></div>
+    <div class="split">
+      <div class="panel">
+        <h3>At our Halesowen workshop</h3>
+        <p>Bring the car to Unit F, Leona Trading Estate, B62 9JQ. Appointments only, so the bay and the right key are ready when you arrive. This is the lowest price option.</p>
+        <ul><li>Monday to Friday, 09:00 to 18:00</li><li>Saturday by appointment</li><li>Wait while we work</li></ul>
+      </div>
+      <div class="panel">
+        <h3>We come to you, within 30 miles</h3>
+        <p>Home, work or wherever the car is stuck, anywhere within about 30 miles of Halesowen. The right call when every key is lost and the car cannot be driven. A travel charge is added and confirmed before we set off.</p>
+        <p><a href="/areas-we-cover/">Check the areas we cover</a></p>
       </div>
     </div>
   </div>
-</header>
+</section>
 
-<main>
-  <!-- HERO -->
-  <section class="hero">
-    <div class="container hero-inner">
-      <div>
-        <h1>Porsche, Volvo &amp; JLR car keys from Halesowen – workshop &amp; mobile.</h1>
-        <p class="hero-subtitle">
-          Specialist car key replacement and programming for Porsche (2010–2021), Volvo and JLR (2010–2025), plus CAN Phantom
-          immobiliser installation. Workshop by appointment in Halesowen with a mobile radius of up to 99 miles.
-        </p>
-        <div class="hero-actions">
-          <a href="tel:+447833823384" class="btn btn-primary">Speak to a technician</a>
-          <a href="https://wa.me/447833823384" class="btn btn-whatsapp" target="_blank" rel="noopener">Send key photo on WhatsApp</a>
+<section class="sec sec-white" aria-labelledby="how-h">
+  <div class="wrap">
+    <div class="sec-head"><h2 id="how-h">How it works</h2></div>
+    <ol class="steps">
+      <li><strong>Send a photo</strong><p>WhatsApp a clear photo of your key, or the start button if every key is lost, with your registration.</p></li>
+      <li><strong>Get a fixed price</strong><p>We confirm the key type, the price and whether workshop or mobile suits you best.</p></li>
+      <li><strong>Book a time</strong><p>Have photo ID and your V5C or other proof of ownership ready for the appointment.</p></li>
+      <li><strong>Cut, coded and tested</strong><p>Every key is tested and shown working with you before we finish.</p></li>
+    </ol>
+  </div>
+</section>
+
+<section class="sec" aria-labelledby="price-h">
+  <div class="wrap">
+    <div class="sec-head"><h2 id="price-h">Guide prices</h2></div>
+    <div class="table-scroll"><table class="prices">
+      <caption>Workshop prices, including cutting, programming and testing. Mobile visits add a travel charge, confirmed before booking.</caption>
+      <thead><tr><th scope="col">Service</th><th scope="col">Price</th></tr></thead>
+      <tbody><tr><th scope="row"><a href="/porsche-car-keys/">Porsche spare key</a><small>2010 to 2021, when you still have one working key</small></th><td class="p">from £250</td></tr><tr><th scope="row"><a href="/volvo-car-keys/">Volvo spare key</a><small>2010 to 2025, a second key at the same visit is often discounted</small></th><td class="p">from £220</td></tr><tr><th scope="row"><a href="/jaguar-land-rover-car-keys/">Jaguar Land Rover spare key</a><small>2010 to 2023, smart keys and selected flip keys</small></th><td class="p">from £170</td></tr><tr><th scope="row"><a href="/all-keys-lost/">All keys lost</a><small>Simple cases start here. Porsche and complex jobs are often higher, confirmed before booking</small></th><td class="p">from £320</td></tr><tr><th scope="row"><a href="/can-phantom-immobiliser/">CAN Phantom immobiliser</a><small>£399 when fitted at the same appointment as your key work</small></th><td class="p">£449</td></tr></tbody>
+    </table></div>
+  </div>
+</section>
+
+<section class="sec sec-ink" aria-labelledby="cp-h">
+  <div class="wrap split" style="align-items:center">
+    <div>
+      <h2 id="cp-h">Stop it being driven away, even with a copied key.</h2>
+      <p>CAN Phantom is a hidden immobiliser. The engine will not start until you enter your own sequence on the car's existing buttons. No extra fob to carry and nothing obvious for a thief to find.</p>
+    </div>
+    <div>
+      <p><strong style="color:#fff;font-size:1.4rem">£449 fitted</strong><br>£399 when fitted at the same appointment as your key work.</p>
+      <a class="btn btn-line" style="border-color:#fff;color:#fff" href="/can-phantom-immobiliser/">About CAN Phantom</a>
+    </div>
+  </div>
+</section>
+
+<section class="sec" aria-labelledby="area-h">
+  <div class="wrap">
+    <div class="sec-head"><h2 id="area-h">West Midlands, within 30 miles of Halesowen</h2>
+    <p>Our mobile service covers about 30 miles from the workshop. Further out, you are welcome to bring the car to us.</p></div>
+    <ul class="towns"><li>Birmingham</li><li>Dudley</li><li>Stourbridge</li><li>West Bromwich</li><li>Wolverhampton</li><li>Walsall</li><li>Solihull</li><li>Sutton Coldfield</li><li>Bromsgrove</li><li>Kidderminster</li><li>Redditch</li><li>Coventry</li></ul>
+    <a class="btn btn-line" href="/areas-we-cover/">See all areas</a>
+  </div>
+</section>
+
+<section class="sec sec-white" aria-labelledby="rev-h">
+  <div class="wrap reviews-band">
+    <div>
+      <h2 id="rev-h">Read genuine reviews</h2>
+      <p>Our customer reviews live on the Kovac Services Automotive page on Facebook, where you can see who wrote them.</p>
+    </div>
+    <a class="btn" href="FACEBOOK_PAGE_URL" rel="noopener">Read our reviews on Facebook</a>
+  </div>
+</section>
+<section class="sec sec-white" id="quote" aria-labelledby="quote-h">
+  <div class="wrap quote-grid">
+    <div>
+      <h2 id="quote-h">Get a price</h2>
+      <p>Fill this in and WhatsApp opens with your details ready to send. Then attach a clear photo of your key, or of the start button if every key is lost.</p>
+      <form class="form" data-quote novalidate>
+        <div class="field"><label for="q-name">Name</label><input id="q-name" name="name" autocomplete="name" required></div>
+        <div class="field"><label for="q-phone">Phone or WhatsApp</label><input id="q-phone" name="phone" type="tel" autocomplete="tel" required></div>
+        <div class="field"><label for="q-postcode">Postcode</label><input id="q-postcode" name="postcode" autocomplete="postal-code" required><span class="hint">Tells us if you are inside our 30 mile mobile area.</span></div>
+        <div class="field"><label for="q-email">Email (optional)</label><input id="q-email" name="email" type="email" autocomplete="email"></div>
+        <div class="field"><label for="q-make">Make</label><select id="q-make" name="make" required><option value="">Choose a make</option><option>Porsche</option><option>Volvo</option><option>Jaguar</option><option>Land Rover or Range Rover</option></select></div>
+        <div class="field"><label for="q-model">Model and year</label><input id="q-model" name="model" placeholder="e.g. 2017 Range Rover Sport"></div>
+        <div class="field"><label for="q-reg">Registration</label><input id="q-reg" name="reg" autocapitalize="characters" required></div>
+        <div class="field"><label for="q-service">What do you need?</label><select id="q-service" name="service" required>
+          <option value="">Choose one</option>
+          <option>Spare key, I still have one working key</option>
+          <option>All keys lost, car is locked</option>
+          <option>All keys lost, car is open</option>
+          <option>CAN Phantom immobiliser</option>
+          <option>Something else</option>
+        </select></div>
+        <div class="field full"><label for="q-visit">Workshop or mobile?</label><select id="q-visit" name="visit" required>
+          <option value="">Choose one</option>
+          <option>Workshop in Halesowen, by appointment</option>
+          <option>Mobile visit, within 30 miles of Halesowen</option>
+          <option>Not sure yet</option>
+        </select></div>
+        <div class="field full"><label for="q-msg">Anything else we should know?</label><textarea id="q-msg" name="message"></textarea></div>
+        <p class="form-note">We use these details only to reply to your enquiry. See our <a href="/privacy/">privacy notice</a>.</p>
+        <div class="form-actions">
+          <button class="btn btn-wa" type="submit">Send on WhatsApp</button>
+          <button class="btn btn-line" type="button" data-email>Send by email instead</button>
         </div>
-        <ul class="hero-points">
-          <li>Porsche keys: 2010–2021 – spare keys &amp; all keys lost</li>
-          <li>Volvo &amp; JLR keys: 2010–2025 – spare keys &amp; all keys lost</li>
-          <li>CAN Phantom immobiliser fitted – £449, or £399 with key work</li>
-          <li>OEM-quality keys supplied with up to 12 months warranty</li>
-          <li>Professional ID &amp; ownership checks for every job</li>
+        <p class="form-note" data-status aria-live="polite"></p>
+        <noscript><p class="form-note">This form needs JavaScript. Call or WhatsApp 07833 823384 instead.</p></noscript>
+      </form>
+    </div>
+    <aside class="info-block" aria-label="Workshop details">
+      <h3>Workshop</h3>
+      <dl>
+        <dt>Address</dt><dd>Unit F, Leona Trading Estate, Nimmings Road, Halesowen, B62 9JQ</dd>
+        <dt>Hours</dt><dd>Monday to Friday, 09:00 to 18:00. Saturday by appointment. Sunday closed.</dd>
+        <dt>Phone</dt><dd><a href="tel:+447833823384">07833 823384</a></dd>
+        <dt>WhatsApp</dt><dd><a href="https://wa.me/447833823384">Message us</a></dd>
+        <dt>Email</dt><dd><a href="mailto:info@kslimited.co.uk">info@kslimited.co.uk</a></dd>
+      </dl>
+      <iframe class="map" title="Map of the Premium Car Keys workshop in Halesowen" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q=52.47251079517749,-2.032237813644786&amp;z=16&amp;output=embed"></iframe>
+      <p class="form-note" style="margin-top:12px">Workshop visits are by appointment only. Please call before travelling.</p>
+    </aside>
+  </div>
+</section>
+</main>
+<footer class="site-foot">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <h2>Premium Car Keys</h2>
+        <p>Spare keys, all keys lost and CAN Phantom immobilisers for Porsche, Volvo and Jaguar Land Rover. Workshop in Halesowen, mobile within 30 miles across the West Midlands.</p>
+        <p><a href="FACEBOOK_PAGE_URL" rel="noopener">Read our reviews on Facebook</a></p>
+      </div>
+      <div>
+        <h2>Services</h2>
+        <ul><li><a href="/porsche-car-keys/">Porsche</a></li><li><a href="/volvo-car-keys/">Volvo</a></li><li><a href="/jaguar-land-rover-car-keys/">Jaguar Land Rover</a></li><li><a href="/all-keys-lost/">All keys lost</a></li><li><a href="/can-phantom-immobiliser/">CAN Phantom</a></li><li><a href="/areas-we-cover/">Areas we cover</a></li></ul>
+      </div>
+      <div>
+        <h2>Contact</h2>
+        <ul>
+          <li><a href="tel:+447833823384">07833 823384</a></li>
+          <li><a href="https://wa.me/447833823384">WhatsApp</a></li>
+          <li><a href="mailto:info@kslimited.co.uk">info@kslimited.co.uk</a></li>
+          <li>Unit F, Leona Trading Estate, Nimmings Road, Halesowen, B62 9JQ</li>
         </ul>
       </div>
-      <div>
-        <div class="hero-card">
-          <!-- Your van hero image -->
-          <img src="images/our-van.jpg" alt="Premium Car Keys mobile workshop van in front of brick buildings">
-          <strong>Trusted, specialist auto locksmith.</strong>
-          <p>
-            We only work on Porsche, Volvo and JLR. That focus lets us invest in the tools and knowledge needed for these vehicles –
-            from late Volvo to modern JLR and Porsche platforms.
-          </p>
-        </div>
-      </div>
     </div>
-  </section>
-
-  <!-- ABOUT / SERVICES -->
-  <section class="section" id="about">
-    <div class="container">
-      <h2>About Premium Car Keys</h2>
-      <p class="section-intro">
-        We are an independent auto locksmith service based in Halesowen, dedicated to Porsche, Volvo and JLR vehicles. Whether you
-        need a spare key for peace of mind, have lost all keys, or want to upgrade security with a CAN Phantom immobiliser, our aim
-        is to provide clear advice, fixed pricing and professional work.
-      </p>
-      <div class="two-col">
-        <div class="card">
-          <h3>What we do</h3>
-          <ul class="simple-list">
-            <li>Spare keys when you still have at least one working key.</li>
-            <li>All keys lost – recovery, cutting, coding and testing.</li>
-            <li>Faulty or intermittent keys diagnosed and replaced.</li>
-            <li>CAN Phantom immobiliser supplied and installed.</li>
-            <li>Workshop appointments or mobile visits within 99 miles.</li>
-          </ul>
-        </div>
-        <div class="card">
-          <h3>How we work</h3>
-          <ul class="simple-list">
-            <li>We confirm your vehicle and key type before booking.</li>
-            <li>Up-front fixed price – no add-ons once we arrive.</li>
-            <li>OEM-quality keys, typically with 12 months warranty.</li>
-            <li>Keys fully tested and demonstrated before we leave.</li>
-            <li>Invoice provided for your records and insurance.</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- VEHICLE COVERAGE -->
-  <section class="section section-alt" id="coverage">
-    <div class="container">
-      <h2>Vehicles we cover</h2>
-      <p class="section-intro">
-      </p>
-      <div class="three-col">
-        <div class="card">
-          <img src="images/porsche-spare-key.jpg" class="brand-photo" alt="Porsche sports car with new key held in front">
-          <h3>Porsche • 2010–2021</h3>
-          <p style="margin-top:0;margin-bottom:8px;font-size:14px;color:var(--text-soft);">
-            Spare keys and all keys lost for most modern Porsche smart key systems:
-          </p>
-          <ul class="simple-list">
-            <li>911 Carrera / Turbo / Targa</li>
-            <li>Boxster &amp; 718 Boxster</li>
-            <li>Cayman &amp; 718 Cayman</li>
-            <li>Cayenne (approx. 2010–2018)</li>
-            <li>Macan (2014–2021)</li>
-            <li>Panamera (approx. 2010–2018)</li>
-          </ul>
-        </div>
-        <div class="card">
-          <img src="images/volvo-spare-key.jpg" class="brand-photo" alt="Volvo XC90 with keys in foreground">
-          <h3>Volvo • 2010–2025</h3>
-          <p style="margin-top:0;margin-bottom:8px;font-size:14px;color:var(--text-soft);">
-            From classic rectangular remotes to later leather-style smart keys:
-          </p>
-          <ul class="simple-list">
-            <li>S60, S80, S90</li>
-            <li>V40, V60, V70, V90</li>
-            <li>XC40, XC60, XC70, XC90</li>
-          </ul>
-        </div>
-        <div class="card">
-          <img src="images/jaguar-spare-key.jpg" class="brand-photo" alt="Jaguar sports car with two Jaguar smart keys held in front">
-          <h3>JLR • 2010–2023</h3>
-          <p style="margin-top:0;margin-bottom:8px;font-size:14px;color:var(--text-soft);">
-            Jaguar, Land Rover &amp; Range Rover smart keys and selected flip keys:
-          </p>
-          <ul class="simple-list">
-            <li>Range Rover, Sport, Velar, Evoque</li>
-            <li>Discovery 3/4, Discovery 5, Discovery Sport</li>
-            <li>Freelander 2</li>
-            <li>Jaguar XE, XF, XJ, F-TYPE, F-PACE, E-PACE and more</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- PRICING -->
-  <section class="section" id="pricing">
-    <div class="container">
-      <h2>Guide pricing</h2>
-      <p class="section-intro">
-        Prices below are for work carried out at our Halesowen workshop. Mobile visits within our 99-mile radius usually carry an additional charge to cover travel and time on site. We’ll confirm a fixed price once we’ve checked your details.
-      </p>
-
-      <div class="three-col">
-        <div class="card pricing-card">
-          <h3>Porsche spare keys</h3>
-          <div class="price">Workshop from £250</div>
-          <div class="price-note">Typical Porsche workshop spare keys from £250, depending on model and key type.</div>
-          <ul>
-            <li>When you still have at least one working key.</li>
-            <li>Includes cutting, programming and testing.</li>
-            <li>Mobile service available at additional cost.</li>
-          </ul>
-        </div>
-
-        <div class="card pricing-card">
-          <h3>Volvo spare keys</h3>
-          <div class="price">Workshop from £220</div>
-          <div class="price-note">Most Volvo workshop spare keys start from £220.</div>
-          <ul>
-            <li>Smart keys and standard remotes.</li>
-            <li>Second key at the same visit often discounted.</li>
-            <li>Mobile service available at additional cost.</li>
-          </ul>
-        </div>
-
-        <div class="card pricing-card">
-          <h3>JLR spare keys</h3>
-          <div class="price">Workshop from £170</div>
-          <div class="price-note">Jaguar / Land Rover / Range Rover workshop spare keys from £170.</div>
-          <ul>
-            <li>Applies to supported JLR models 2010–2023.</li>
-            <li>Includes cutting, coding and testing.</li>
-            <li>Mobile service available at additional cost.</li>
-          </ul>
-        </div>
-
-        <div class="card pricing-card">
-          <h3>All keys lost – workshop</h3>
-          <div class="price">Workshop from £320</div>
-          <div class="price-note">
-            Simple cases start around £320; complex or Porsche all-keys-lost jobs are often higher. We’ll always confirm the price before booking.
-          </div>
-          <ul>
-            <li>Vehicle access, decoding and key programming.</li>
-            <li>Old keys removed from the system where possible.</li>
-            <li>Mobile recovery available – price depends on location.</li>
-          </ul>
-        </div>
-      </div>
-
-      <div style="margin-top:20px;">
-        <div class="card">
-          <h3>CAN Phantom immobiliser</h3>
-          <div class="price">£449</div>
-          <div class="price-note">
-            Or <strong>£399</strong> when installed at the same appointment as your car key work.
-          </div>
-          <ul>
-            <li>Extra protection against key cloning and relay theft.</li>
-            <li>Uses your existing buttons – no extra fobs or keypads.</li>
-            <li>Ideal for high-value Porsche, Volvo and JLR vehicles.</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- REVIEWS -->
-  <section class="section section-alt" id="reviews">
-    <div class="container">
-      <h2>Recent customer reviews</h2>
-      <p class="section-intro">
-        A few examples from owners we’ve helped with Porsche, Volvo and JLR keys and CAN Phantom installations.
-      </p>
-      <div class="reviews-grid">
-        <div class="card">
-          <div class="review-stars">★★★★★</div>
-          <div class="review-meta">Mark – 2018 Range Rover Sport • Spare key &amp; CAN Phantom</div>
-          <p style="margin:0;font-size:14px;color:var(--text-soft);">
-            “Sent a photo of my key on WhatsApp and had a price within minutes. Spare key cut and coded at their workshop and CAN
-            Phantom fitted at the same time. Very professional setup and everything explained clearly.”
-          </p>
-        </div>
-
-        <div class="card">
-          <div class="review-stars">★★★★★</div>
-          <div class="review-meta">Sophie – 2017 Volvo XC90 • All keys lost</div>
-          <p style="margin:0;font-size:14px;color:var(--text-soft);">
-            “Lost both keys for our XC90 and didn’t think anyone would be able to help without Volvo main dealer. Premium Car Keys
-            came out, gained entry and programmed new keys on the drive. Huge relief and worth every penny.”
-          </p>
-        </div>
-
-        <div class="card">
-          <div class="review-stars">★★★★★</div>
-          <div class="review-meta">James – 2016 Porsche 911 • Spare key</div>
-          <p style="margin:0;font-size:14px;color:var(--text-soft);">
-            “Wanted a spare key before a European trip. They knew the Porsche system inside out, booked me in quickly and had the new
-            key working first time. Workshop is very tidy and you can tell they take pride in the job.”
-          </p>
-        </div>
-
-        <div class="card">
-          <div class="review-stars">★★★★★</div>
-          <div class="review-meta">Imran – 2019 Jaguar F-PACE • All keys lost</div>
-          <p style="margin:0;font-size:14px;color:var(--text-soft);">
-            “Dealer quoted crazy money and a long wait. Premium Car Keys recovered the car on the drive, programmed new Jaguar keys
-            and checked everything with me before leaving. Great communication from start to finish.”
-          </p>
-        </div>
-
-        <div class="card">
-          <div class="review-stars">★★★★★</div>
-          <div class="review-meta">Laura – 2015 Volvo V60 • Second key before sale</div>
-          <p style="margin:0;font-size:14px;color:var(--text-soft);">
-            “Needed a second key to help sell my V60. Price was clear, appointment arranged quickly and I could wait while they did
-            the work. They even showed me how to change the battery myself in future.”
-          </p>
-        </div>
-
-        <div class="card">
-          <div class="review-stars">★★★★★</div>
-          <div class="review-meta">Ben – 2020 Range Rover Velar • Same-day spare key</div>
-          <p style="margin:0;font-size:14px;color:var(--text-soft);">
-            “Called in the morning and they managed to fit me in the same day at my workplace. New Velar key cut, coded and tested in
-            under an hour. Really handy mobile service and very polite throughout.”
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- CAN PHANTOM DETAILS -->
-  <section class="section" id="can-phantom">
-    <div class="container">
-      <h2>CAN Phantom immobiliser</h2>
-      <p class="section-intro">
-        Modern thieves can access vehicles without touching the original key. CAN Phantom adds an invisible layer of security by
-        preventing the car from starting unless a secret button sequence is entered.
-      </p>
-      <div class="two-col">
-        <div class="card">
-          <h3>Key features</h3>
-          <ul class="simple-list">
-            <li>Stops the engine running without your unique PIN sequence.</li>
-            <li>PIN entered via standard vehicle buttons (e.g. steering wheel).</li>
-            <li>No extra key fobs, tags or keypads to carry.</li>
-            <li>Suitable for many Porsche, Volvo &amp; JLR models.</li>
-            <li>Valet and service modes for workshops and handovers.</li>
-          </ul>
-        </div>
-        <div class="card">
-          <h3>Best time to install</h3>
-          <p style="margin-top:0;font-size:14px;color:var(--text-soft);">
-            The most cost-effective time to fit CAN Phantom is during key programming, as we’re already connected to the vehicle
-            systems. That’s why the price drops to <strong>£399</strong> when installed at the same time as your car key work.
-          </p>
-          <p style="font-size:14px;color:var(--text-soft);">
-            If you’d like to discuss whether CAN Phantom is suitable for your model, mention it when you call or select
-            “I’d like a CAN Phantom immobiliser fitted” in the form below.
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- CONTACT -->
-  <section class="section" id="contact">
-    <div class="container">
-      <h2>Request a quote</h2>
-      <p class="section-intro">
-        Fill in the form and then send us a clear photo of your key (or the key slot / start button if all keys are lost) on
-        WhatsApp. We’ll confirm coverage, pricing and the next available appointment.
-      </p>
-
-      <div class="contact-grid">
-        <!-- FORM -->
-        <div class="card">
-          <form action="#" method="post">
-            <div class="form-row">
-              <label for="name">Name *</label>
-              <input type="text" id="name" name="name" required>
-            </div>
-
-            <div class="form-row">
-              <label for="phone">Phone number *</label>
-              <input type="tel" id="phone" name="phone" required>
-            </div>
-
-            <div class="form-row">
-              <label for="email">Email address (optional)</label>
-              <input type="email" id="email" name="email">
-            </div>
-
-            <div class="form-row">
-              <label for="postcode">Postcode *</label>
-              <input type="text" id="postcode" name="postcode" placeholder="e.g. B62 9JQ" required>
-            </div>
-
-            <div class="form-row">
-              <label for="brand">Vehicle make *</label>
-              <select id="brand" name="brand" required>
-                <option value="">Select make</option>
-                <option value="porsche">Porsche</option>
-                <option value="volvo">Volvo</option>
-                <option value="jlr">Jaguar / Land Rover / Range Rover</option>
-              </select>
-            </div>
-
-            <div class="form-row">
-              <label for="model">Vehicle model</label>
-              <input type="text" id="model" name="model" placeholder="e.g. 2018 Range Rover Sport">
-            </div>
-
-            <div class="form-row">
-              <label for="registration">Vehicle registration *</label>
-              <input type="text" id="registration" name="registration" placeholder="e.g. AB12 CDE" required>
-            </div>
-
-            <div class="form-row">
-              <label for="service_type">Services required *</label>
-              <select id="service_type" name="service_type" required>
-                <option value="">Service required</option>
-                <option value="spare-key">I need a spare key – I still have one that works</option>
-                <option value="lost-locked">I've lost all my keys – car is locked</option>
-                <option value="lost-open">I've lost all my keys – car is open</option>
-                <option value="can-phantom">I’d like a CAN Phantom immobiliser fitted</option>
-                <option value="something-else">Something else</option>
-              </select>
-            </div>
-
-            <div class="form-row">
-              <label for="visit_type">Visit type *</label>
-              <select id="visit_type" name="visit_type" required>
-                <option value="">Select visit type</option>
-                <option value="workshop">Workshop visit (by appointment only)</option>
-                <option value="mobile">Mobile visit (within 99 miles of Halesowen)</option>
-                <option value="not-sure">Not sure yet</option>
-              </select>
-            </div>
-
-            <div class="form-row">
-              <label for="message">How can we help?</label>
-              <textarea id="message" name="message" placeholder="Tell us what’s happened, where the car is and anything else useful."></textarea>
-            </div>
-
-            <button type="submit" class="btn btn-primary">Send my details</button>
-            <p class="contact-note">
-              We’ll usually follow up by phone or WhatsApp. For security we may ask for photo ID and proof of ownership before work
-              begins.
-            </p>
-          </form>
-        </div>
-
-        <!-- CONTACT / MAP / WHATSAPP -->
-        <div class="card">
-          <h3>WhatsApp &amp; workshop details</h3>
-          <p style="font-size:14px;color:var(--text-soft);">
-            After submitting the form, send a clear photo of your key on WhatsApp so we can confirm price and availability quickly.
-          </p>
-          <p>
-            <a href="https://wa.me/447833823384" class="btn btn-whatsapp" target="_blank" rel="noopener">Open WhatsApp chat</a>
-          </p>
-          <p style="font-size:14px;color:var(--text-soft);">
-            Prefer to talk first? Call us on <strong><a href="tel:+447833823384">078 3382 3384</a></strong>.
-          </p>
-
-          <hr style="margin:14px 0;border:none;border-top:1px solid var(--border-soft);">
-
-          <h3>Workshop location</h3>
-          <p style="font-size:14px;color:var(--text-soft);">
-            Workshop visits are by previously agreed appointment only.
-          </p>
-          <p style="font-size:14px;color:var(--text-soft);">
-            <strong>Unit F, Leona Trading Estate<br>
-            Nimmings Road<br>
-            Halesowen, B62 9JQ</strong>
-          </p>
-          <div class="map-box">
-            <iframe
-              loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
-              src="https://maps.google.com/maps?q=52.47249900403358,-2.032268844846102&z=16&output=embed">
-            </iframe>
-          </div>
-          <p class="contact-note">
-            <strong>Opening hours:</strong><br>
-            Monday to Friday: 7:00 – 19:00<br>
-            Saturday &amp; Sunday: emergency only, by appointment.
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
-</main>
-
-<!-- MOBILE STICKY CALL / WHATSAPP BAR -->
-<div class="mobile-sticky-bar">
-  <a href="tel:+447833823384" class="btn btn-primary">Call 078 3382 3384</a>
-  <a href="https://wa.me/447833823384" class="btn btn-whatsapp" target="_blank" rel="noopener">WhatsApp us</a>
-</div>
-
-<footer>
-  <div class="container footer-inner">
-    <div>
-      &copy; <span id="year"></span> Premium Car Keys. All rights reserved.
-      <br>
-      Specialist Porsche (2010–2021), Volvo (2010–2025) &amp; JLR (2010–2023) auto locksmith and CAN Phantom installer.
-    </div>
-    <div>
-      Call: <a href="tel:+447833823384">078 3382 3384</a><br>
-      WhatsApp: <a href="https://wa.me/447833823384" target="_blank" rel="noopener">message us</a><br>
-      Email: <a href="mailto:info@premiumcarkeys.co.uk">info@premiumcarkeys.co.uk</a>
+    <div class="legal">
+      <p>Premium Car Keys is a trading name of Kovac Services Ltd, a company registered in England and Wales, company number 11888027. Registered office and workshop: Unit F, Leona Trading Estate, Nimmings Road, Halesowen, B62 9JQ.</p>
+      <p>We are an independent business and are not affiliated with Porsche, Volvo, Jaguar or Land Rover. Brand names are used only to identify the vehicles we work on. <a href="/privacy/">Privacy notice</a></p>
+      <p>&copy; 2026 Kovac Services Ltd</p>
     </div>
   </div>
 </footer>
-
-<script>
-  document.getElementById("year").textContent = new Date().getFullYear();
-</script>
-
+<div class="mobile-bar">
+  <a class="btn" href="tel:+447833823384">Call</a>
+  <a class="btn btn-wa" href="https://wa.me/447833823384">WhatsApp</a>
+</div>
+<script src="/assets/quote.js" defer></script>
 </body>
 </html>
