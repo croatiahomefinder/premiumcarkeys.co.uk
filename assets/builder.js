@@ -130,6 +130,8 @@
       var note = q.from
         ? "Starting price. We confirm the exact figure from a photo of your key before booking."
         : "Fixed price, confirmed before booking.";
+      if (el("service").value !== "canphantom") note += " OE specification key with a 1 year warranty.";
+      if (q.mobile) note += " Out of hours mobile visits available.";
       priceBox.innerHTML = '<table class="b-lines"><tbody>' + rows + "</tbody></table>" +
         '<p class="b-total"><span>' + (q.from ? "Your price from" : "Your price") + "</span><strong>" + gbp(q.total) + "</strong></p>" +
         '<p class="b-note">' + note + "</p>";
